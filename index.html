@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Charles Condon">
+    <meta name="description" content="It's just like wordle but for people who really need a win.">
+    <meta name="keywords" content="Wordle, Wordle2, word, game, Charles, Charels Condon, fun, easy">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle 2: Electric Boogaloo</title>
+
+    <script src="js/main.js"></script>
+
+    <link 
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/purple eye.gif"
+    />
+
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 600px)"
+      href="css/desktop.css"
+    />
+  
+    <link
+        rel="stylesheet"
+        media="only screen and (max-width: 599px)"
+        href="css/mobile.css"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+</head>
+<body>
+    <div id="container">
+        <div id="game">
+            <header>
+                <h1 class="title">Wordle 2: </h1>
+                <h1 class="title">Electric Boogaloo</h1>
+                <img class="helpImg" src="images/information.png" alt="HELP">
+            </header>
+
+            <div id="boardContainer">
+                <div id="board"></div>
+            </div>
+
+            <div id="helpPop" class="helper">
+                <p>Guess the 5 letter word in 6 tries or less</p>
+                <hr>
+                <p class="instr"> - Just guess a 5 letter word</p>
+                <p class="instr"> - Any 5 letter word</p>
+                <p class="instr"> - Its not that hard</p>
+            </div>
+            <div id="popup" class="pop">
+                <p id="gg">Good Job!</p>
+                <p id="sad">( you really needed this )</p>
+            </div>
+
+            <div id="keyboardContainer">
+                <div class="keyboardRow">
+                        <button data-key="q">q</button>
+                        <button data-key="w">w</button>
+                        <button data-key="e">e</button>
+                        <button data-key="r">r</button>
+                        <button data-key="t">t</button>
+                        <button data-key="y">y</button>
+                        <button data-key="u">u</button>
+                        <button data-key="i">i</button>
+                        <button data-key="o">o</button>
+                        <button data-key="p" class="noMar">p</button>
+                </div>
+                <div class="keyboardRow">
+                    <div class="spacerHalf"></div>
+                    <button data-key="a">a</button>
+                    <button data-key="s">s</button>
+                    <button data-key="d">d</button>
+                    <button data-key="f">f</button>
+                    <button data-key="g">g</button>
+                    <button data-key="h">h</button>
+                    <button data-key="j">j</button>
+                    <button data-key="k">k</button>
+                    <button data-key="l" class="noMar">l</button>
+                    <div class="spacerHalf"></div>
+                </div>
+                <div class="keyboardRow">
+                        <button data-key="enter" class="wideButton">enter</button>
+                        <button data-key="z">z</button>
+                        <button data-key="x">x</button>
+                        <button data-key="c">c</button>
+                        <button data-key="v">v</button>
+                        <button data-key="b">b</button>
+                        <button data-key="n">n</button>
+                        <button data-key="m">m</button>
+                        <button data-key="del" class="wideButton noMar back">←</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
