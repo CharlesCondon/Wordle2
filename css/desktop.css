@@ -8,6 +8,14 @@ html, body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#author {
+    color: gainsboro;
+    font-size: .55rem;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
 #container {
     display: flex;
     background-color: black;
