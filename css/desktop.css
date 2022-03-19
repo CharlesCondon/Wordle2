@@ -194,6 +194,10 @@ header {
     user-select: none;
 }
 
+button:hover {
+  background-color: rgba(129, 131, 132, .75);
+}
+
 .keyboardRow .wideButton {
     flex-grow: 1.5;
     font-size: 12px;
