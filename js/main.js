@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const keys = document.querySelectorAll('.keyboardRow button');
     const help = document.querySelector(".helpImg");
+    const eye = document.querySelector(".logoImg");
 
     function getCurrentWord() {
         const guessNum = guessedWords.length;
@@ -124,6 +125,13 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("Help clicked")
         const helpPop = document.getElementById('helpPop');
         helpPop.classList.toggle("show");
+    }
+
+    eye.onclick = (e) => {
+        const eyePop = document.getElementById('eyePop');
+
+        eyePop.classList.toggle("show");
+
     }
 
 });
